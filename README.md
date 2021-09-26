@@ -23,9 +23,10 @@ $ pkg update && pkg upgrade
 $ pkg install git
 $ pkg install python
 $ python -m pip install requests
+$ python -m pip install bs4
 $ python -m pip install ini-parser
 $ python -m pip install pillow
-$ python -m pip install tesseract
+$ python -m pip install pytesseract
 $ git clone https://github.com/Musk-ID/Qashbits
 $ cd Qashbits
 $ python main.py
@@ -36,4 +37,5 @@ Silahkan buka file cfg.ini lalu isi datanya
 mulai dari user-agent,cookies dan url papi/_challenge
 ```
 - [X] Bitcoin Free [here](https://qashbits.com/?ref=44996)
+
 
