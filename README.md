@@ -22,13 +22,9 @@
 $ pkg update && pkg upgrade
 $ pkg install git
 $ pkg install python
-$ python -m pip install requests
-$ python -m pip install bs4
-$ python -m pip install ini-parser
-$ python -m pip install pillow
-$ python -m pip install pytesseract
 $ git clone https://github.com/Musk-ID/Qashbits
 $ cd Qashbits
+$ pip install -r requirements.txt
 $ python main.py
 ```
 ##### Note
