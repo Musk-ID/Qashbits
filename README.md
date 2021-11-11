@@ -22,15 +22,17 @@
 $ pkg update && pkg upgrade
 $ pkg install git
 $ pkg install python
+$ pip install requests
+$ pip install ini-parser
+$ pip install bs4
 $ git clone https://github.com/Musk-ID/Qashbits
 $ cd Qashbits
-$ pip install -r requirements.txt
-$ python main.py
+$ python bot.py
 ```
 ##### Note
 ```
 Silahkan buka file cfg.ini lalu isi datanya
-mulai dari user-agent,cookies dan url papi/_challenge
+mulai dari user-agent dan ookies
 ```
 - [X] Bitcoin Free [here](https://qashbits.com/?ref=44996)
 
